@@ -4,8 +4,8 @@
     {
         public Guid Id { get; init; }
         public required string Text { get; init; }
-        public required List<Option>Option{ get; set; }
+        public required List<Option>Options{ get; set; }
         public required Guid CoorectOption { get; init; }
-
+        
     }
 }

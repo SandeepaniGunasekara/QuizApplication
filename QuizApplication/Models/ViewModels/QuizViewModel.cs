@@ -4,10 +4,10 @@ namespace QuizApplication.Models.ViewModels
 {
     public class QuizViewModel
     {
-        public required List<QuestionItems> Questions { get; set; } = [];
+        public required List<QuestionItem> Questions { get; set; } = [];
     }
 
-    public class QuestionItems
+    public class QuestionItem
     {
         public required Guid Id { get; set; }
         public required string Text { get; set; }

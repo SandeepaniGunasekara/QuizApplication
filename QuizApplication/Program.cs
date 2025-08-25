@@ -20,7 +20,7 @@ if (!dbContext.Questions.Any())
     var question1 = new Question()
     {
         Text = "What is the capital of New zealand",
-        Option = new List<Option>
+        Options = new List<Option>
         {
             new Option()
             {
@@ -50,7 +50,7 @@ if (!dbContext.Questions.Any())
     var question2 = new Question()
     {
         Text = "What is the capital of India",
-        Option = new List<Option>
+        Options = new List<Option>
         {
             new Option()
             {
